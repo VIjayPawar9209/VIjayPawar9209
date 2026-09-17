@@ -278,45 +278,6 @@ Accessibility-first cybersecurity concept designed to safeguard senior citizens 
 
 ---
 
-### <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="30"/> 📊 GitHub Analytics
-
-<div align="center">
-
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=VIjayPawar9209&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&icon_color=00FF66&text_color=C9D1D9" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VIjayPawar9209&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=8B5CF6&text_color=C9D1D9" />
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=VIjayPawar9209&theme=tokyonight&hide_border=true&background=0D1117&ring=8B5CF6&fire=00FF66&currStreakLabel=8B5CF6" />
-
-</div>
-
-<br/>
-
----
-
-### <img src="https://media.giphy.com/media/L8K62iTDkzGX6/giphy.gif" width="30"/> 📈 Contribution Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=VIjayPawar9209&theme=tokyo-night&hide_border=true&bg_color=0D1117&color=A78BFA&line=8B5CF6&point=C9D1D9" width="100%"/>
-
-</div>
-
-<br/>
-
-### <img src="https://media.giphy.com/media/kJ1LM3zLef1jK/giphy.gif" width="30"/> 🐍 Contribution Snake
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/VIjayPawar9209/VIjayPawar9209/output/github-contribution-grid-snake-dark.svg" width="100%"/>
-
-</div>
-
-<br/>
-
----
-
 ### <img src="https://media.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif" width="30"/> 🎯 [CURRENT MISSION] ~ Current Focus
 
 ```yaml

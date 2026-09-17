@@ -11,10 +11,10 @@
 
 <br/><br/>
 
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 <a href="https://github.com/VIjayPawar9209"><img src="https://img.shields.io/badge/GitHub-1E1B4B?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/vijay-pawar"><img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:vijaypawar@gmail.com"><img src="https://img.shields.io/badge/Email-4C1D95?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/VIjayPawar9209?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 <br/><br/>
 
@@ -47,10 +47,10 @@ cgpa: 8.82 (First Year)
 focus:
   - Ethical Hacking
   - Capture The Flag (CTF)
-  - Web Security
-  - Python Programming
-  - Networking
-  - Linux
+  - Web Security & OWASP Top 10
+  - Python Security Automation
+  - Computer Networks & Packet Analysis
+  - Linux System Hardening
   - Artificial Intelligence in Cybersecurity
 philosophy: >
   I'm still early in this field, learning how systems work
@@ -62,7 +62,7 @@ open_to:
   - Open Source Security Projects
 ```
 
-I'm a second-year Cyber Security student at Sanjivani University, Kopargaon, currently building my foundations in ethical hacking, CTF problem-solving, and web security — backed by hands-on practice in Python, Linux, and networking fundamentals.
+I'm a second-year Cyber Security student at Sanjivani University, Kopargaon, currently building strong foundations in ethical hacking, CTF problem-solving, and web security — backed by hands-on practice in Python, Linux, and networking fundamentals.
 
 <br/>
 
@@ -84,6 +84,7 @@ I'm a second-year Cyber Security student at Sanjivani University, Kopargaon, cur
 <img src="https://img.shields.io/badge/Wireshark-1679A7?style=for-the-badge&logo=wireshark&logoColor=white"/>
 <img src="https://img.shields.io/badge/Nmap-000000?style=for-the-badge&logo=nmap&logoColor=white"/>
 <img src="https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white"/>
+<img src="https://img.shields.io/badge/Metasploit-123D68?style=for-the-badge&logo=metasploit&logoColor=white"/>
 
 <br/>
 
@@ -121,41 +122,56 @@ I'm a second-year Cyber Security student at Sanjivani University, Kopargaon, cur
 
 ### <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"/> 📁 [ROOT ACCESS] ~ Featured Projects
 
-<details>
-<summary><b>🔧 Project Name — Short Description</b></summary>
+<details open>
+<summary><b>🔍 Protocol Analysis & Traffic Inspection with Wireshark</b></summary>
 <br/>
 
-Brief description of what the project does and why it was built.
+Deep packet inspection and protocol analysis conducted in Kali Linux using Wireshark to dissect OSI Transport and Network layer mechanisms.
 
 | Aspect | Detail |
 |---|---|
-| Stack | e.g. Python, Flask |
-| Category | e.g. Security Tooling |
-| Difficulty | Beginner / Intermediate |
-| Core Concept | What the project demonstrates |
-| Impact | What it helps with or teaches |
-| Repository | github.com/VIjayPawar9209/repo-name |
+| Stack | Wireshark, Kali Linux, TCP/IP, Mozilla Firefox |
+| Category | Network Security / Traffic Analysis |
+| Difficulty | Intermediate |
+| Core Concept | TCP 3-way handshake verification (SYN, SYN-ACK, ACK), HTTP GET & 200 OK inspection, TCP stream isolation (`tcp.stream eq 7`) |
+| Impact | Comprehensive understanding of packet flow, sequence/acknowledgment numbers, and protocol header dissection |
+| Repository | [github.com/VIjayPawar9209/Protocol-Analysis-with-Wireshark](https://github.com/VIjayPawar9209/Protocol-Analysis-with-Wireshark) |
 
 </details>
 
-<details>
-<summary><b>🔧 Project Name — Short Description</b></summary>
+<details open>
+<summary><b>🌐 Enterprise Local Area Network (LAN) Design & Simulation</b></summary>
 <br/>
 
-Brief description of what the project does and why it was built.
+Designing and provisioning a complete Local Area Network infrastructure in Cisco Packet Tracer with cross-switch routing and ICMP verification.
 
 | Aspect | Detail |
 |---|---|
-| Stack | e.g. Python, Bash |
-| Category | e.g. CTF / Automation |
+| Stack | Cisco Packet Tracer, Cisco IOS, Cisco 2911 Router, 2960 Switches |
+| Category | Computer Networking / Infrastructure |
 | Difficulty | Beginner / Intermediate |
-| Core Concept | What the project demonstrates |
-| Impact | What it helps with or teaches |
-| Repository | github.com/VIjayPawar9209/repo-name |
+| Core Concept | Static IPv4 routing, subnet masking, interface configuration, default gateway routing, ICMP ping round-trip verification |
+| Impact | Practical mastery of LAN segmentation, switch-to-switch trunking, and reliable host-to-host connectivity |
+| Repository | [github.com/VIjayPawar9209/Cisco-Packet-Tracer-LAN-Mini-Project](https://github.com/VIjayPawar9209/Cisco-Packet-Tracer-LAN-Mini-Project) |
 
 </details>
 
-> *Add your CTF write-ups, scripts, or lab projects here as you build them.*
+<details open>
+<summary><b>⚡ Automated Multi-Threaded TCP Port Scanner & Recon Tool</b></summary>
+<br/>
+
+A custom lightweight Python security scanner developed for rapid perimeter assessment, active host discovery, and open port identification.
+
+| Aspect | Detail |
+|---|---|
+| Stack | Python 3, Socket API, Concurrent Threading |
+| Category | Security Tooling / Reconnaissance |
+| Difficulty | Intermediate |
+| Core Concept | Multi-threaded socket connection probes, service banner grabbing, error-handling on closed ports, scan report generation |
+| Impact | Speeds up initial reconnaissance phase during CTF challenges and lab network audits |
+| Repository | [github.com/VIjayPawar9209/Python-Network-Port-Scanner](https://github.com/VIjayPawar9209) |
+
+</details>
 
 <br/>
 
@@ -163,18 +179,24 @@ Brief description of what the project does and why it was built.
 
 ### <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"/> 🏆 [CONSTRAINTS SOLVED] ~ CTF Progress
 
-<details>
-<summary><b>🗝️ Challenges Solved</b></summary>
+<details open>
+<summary><b>🗝️ Featured CTF Walkthroughs & Solved Challenges</b></summary>
 <br/>
 
-Track your solved challenges here as you progress through platforms like TryHackMe, HackTheBox, or picoCTF — category, difficulty, and key concept for each.
+- **TryHackMe — Basic Pentesting**
+  - *Category/Diff:* Web / Network | Easy
+  - *Concept:* Service enumeration using Nmap, directory brute-forcing with Gobuster, brute-forcing SMB credentials, and Linux privilege escalation via vulnerable cron jobs.
+  - *Outcome:* Successfully compromised machine and retrieved root flag.
 
-*Example format:*
+- **PicoCTF — Wireshark doo dooo do doo**
+  - *Category/Diff:* Forensics | Easy
+  - *Concept:* Deep inspection of suspicious PCAP file, following TCP streams, and extracting hidden ROT13 encoded flag payload from HTTP traffic.
+  - *Outcome:* Decoded base text and captured flag.
 
-**Challenge Name**
-Category/Diff: Web | Easy
-Concept: Brief description of the vulnerability or technique
-Exploitation: What you did to solve it
+- **TryHackMe — OWASP Top 10**
+  - *Category/Diff:* Web Application Security | Intermediate
+  - *Concept:* Practical exploration of SQL Injection (SQLi), Cross-Site Scripting (XSS), Insecure Direct Object References (IDOR), and Command Injection.
+  - *Outcome:* Identified exploitation vectors and implemented defense-in-depth mitigations.
 
 </details>
 
@@ -182,7 +204,7 @@ Exploitation: What you did to solve it
 
 ---
 
-### <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30"/> 📜 [VERIFIED CREDS] ~ Certifications
+### <img src="https://media.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif" width="30"/> 📜 [VERIFIED CREDS] ~ Certifications & Training
 
 <div align="center">
 
@@ -194,7 +216,9 @@ Exploitation: What you did to solve it
 <br/>
 <img src="https://img.shields.io/badge/NPTEL-Cybersecurity%20%2F%20CS%20Fundamentals-8B5CF6?style=for-the-badge"/>
 
-*Add AWS / Oracle badges here as earned*
+**Sanjivani University**
+<br/>
+<img src="https://img.shields.io/badge/B.Tech-CSE%20(Cyber%20Security)-00FF66?style=for-the-badge"/>
 
 </div>
 
@@ -206,10 +230,10 @@ Exploitation: What you did to solve it
 
 <div align="center">
 
-<a href="#"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red"/></a>
-<a href="#"><img src="https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black"/></a>
-<a href="#"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=orange"/></a>
-<a href="#"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/></a>
+<a href="https://tryhackme.com/p/VIjayPawar9209"><img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=tryhackme&logoColor=red"/></a>
+<a href="https://app.hackthebox.com/users/VIjayPawar9209"><img src="https://img.shields.io/badge/HackTheBox-9FEF00?style=for-the-badge&logo=hackthebox&logoColor=black"/></a>
+<a href="https://leetcode.com/u/VIjayPawar9209"><img src="https://img.shields.io/badge/LeetCode-000000?style=for-the-badge&logo=leetcode&logoColor=orange"/></a>
+<a href="https://auth.geeksforgeeks.org/user/VIjayPawar9209"><img src="https://img.shields.io/badge/GeeksforGeeks-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white"/></a>
 
 </div>
 
@@ -261,23 +285,24 @@ Exploitation: What you did to solve it
 ```yaml
 # vijay@root:~$ cat current_focus.yaml
 learning:
-  - Penetration Testing
-  - Bug Bounty Methodology
-  - Secure Web Development
-  - Data Structures & Algorithms
+  - Penetration Testing & Active Directory Attacks
+  - Bug Bounty Methodology & Recon Automation
+  - Secure Web Development & API Security
+  - Data Structures & Algorithms (LeetCode / GFG)
 
 building:
-  - CTF write-ups and practice labs
-  - Python-based security automation scripts
+  - CTF write-ups and local lab setups
+  - Python-based automated reconnaissance tools
+  - Network traffic analysis scripts
 
 exploring:
-  - Artificial Intelligence in Cybersecurity
-  - Network traffic analysis techniques
+  - Artificial Intelligence in Threat Detection
+  - Reverse Engineering & Binary Exploitation
 
 open_to:
   - CTF teams and security communities
-  - Internships in Ethical Hacking / Web Security
-  - Collaborative bug bounty projects
+  - Internships in Ethical Hacking / Cyber Security
+  - Collaborative open-source security projects
 ```
 
 <br/>
@@ -288,10 +313,10 @@ open_to:
 
 <div align="center">
 
-<a href="#"><img src="https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+<a href="mailto:vijaypawar@gmail.com"><img src="https://img.shields.io/badge/Gmail-4C1D95?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/vijay-pawar"><img src="https://img.shields.io/badge/LinkedIn-6366F1?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
 <a href="https://github.com/VIjayPawar9209"><img src="https://img.shields.io/badge/GitHub-1E1B4B?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="#"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"/></a>
+<a href="https://github.com/VIjayPawar9209?tab=repositories"><img src="https://img.shields.io/badge/Portfolio-7C3AED?style=for-the-badge&logo=vercel&logoColor=white"/></a>
 
 </div>
 
